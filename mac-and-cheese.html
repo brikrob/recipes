@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grown-Up Mac &amp; Cheese</title>
+<meta name="description" content="Baked mac and cheese with herb-infused cream, roasted garlic, miso and a za'atar crumb.">
+<style>
+:root{color-scheme:light dark;
+  --bg:light-dark(#F5EFE0,#0F1726);--surface:light-dark(#FFFBF2,#172238);--ink:light-dark(#1B2A4A,#F1EADB);
+  --muted:light-dark(#56607A,#A9B2C6);--line:light-dark(#E2D7BF,#2A3550);--teal:light-dark(#137F86,#5FCACE);
+  --brass:light-dark(#A9844A,#D3B27A);--brass-lt:light-dark(#E9D7AE,#5A4A2C);--warn:light-dark(#B0521C,#F2A06A)}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 16px 56px}
+.wrap{max-width:760px;margin:0 auto}
+header{padding:32px 0 8px}
+.holder{display:inline-block;position:relative;padding:12px 30px 14px;border:3px solid var(--brass);border-radius:6px;background:var(--surface);box-shadow:inset 0 0 0 2px var(--brass-lt)}
+.holder::before,.holder::after{content:"";position:absolute;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:var(--brass)}
+.holder::before{left:8px}.holder::after{right:8px}
+h1{font:700 clamp(32px,7vw,46px)/1.05 Georgia,"Times New Roman",serif;margin:0}
+.tag{font:italic 19px Georgia,serif;color:var(--teal);margin:14px 0 4px}
+.intro{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;margin:18px 0 0;padding:12px 0;border-block:1.5px solid var(--line);font-size:16px}
+.facts b{display:block;font-size:13px;color:var(--brass)}
+h2{font:700 26px Georgia,serif;margin:34px 0 10px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th{color:var(--brass);font-weight:600;text-align:right;border-bottom:2px solid var(--brass);padding:6px 8px}
+th:first-child{text-align:left}
+td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+td small{color:var(--muted);display:block}
+tr.grp td{font-weight:700;color:var(--teal);padding-top:16px;border-bottom:none}
+ol{list-style:none;margin:0;padding:0;counter-reset:s}
+ol li{counter-increment:s;position:relative;background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:14px 16px 14px 58px;margin-bottom:10px}
+ol li::before{content:counter(s);position:absolute;left:14px;top:10px;width:30px;text-align:center;font:700 28px Georgia,serif;color:var(--teal)}
+.why{display:block;color:var(--muted);font-size:15.5px;margin-top:6px;padding-left:12px;border-left:3px solid var(--brass-lt)}
+.why b{color:var(--brass)}
+.t{white-space:nowrap;font-weight:600;color:var(--warn)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px}
+.card{background:var(--surface);border:1.5px solid var(--brass-lt);border-radius:10px;padding:14px 16px}
+.card h3{font:700 18px Georgia,serif;margin:0 0 6px}
+.card p{margin:4px 0}
+footer{margin-top:40px;padding-top:12px;border-top:1.5px solid var(--line);font-size:14px;color:var(--muted)}
+@media print{body{background:#fff;color:#111;font-size:11pt;padding:0}ol li,.card{break-inside:avoid;border-width:1px}h2{margin-top:18px}}
+.opt{font-size:12px;font-weight:600;color:var(--teal);border:1.5px solid var(--teal);border-radius:999px;padding:1px 8px;margin-left:6px;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="holder"><h1>Grown-Up Mac &amp; Cheese</h1></div>
+  <p class="tag">no blue box was harmed</p>
+  <p class="intro">A baked mac with herb-infused cream, roasted garlic, miso, sharp cheddar and Parmigiano, a stretchy mozzarella middle and a crisp za’atar crumb. The pasta goes in half-cooked and finishes in the oven by soaking up the sauce, which is why the sauce looks loose at first.</p>
+  <div class="facts">
+    <span><b>Serves</b>6–8 as a side (full) · 3–4 (half)</span>
+    <span><b>Active</b>about 50 min</span>
+    <span><b>Bake</b>20–35 min at 400°F / 200°C</span>
+    <span><b>Make ahead</b>sauce + topping, 1 day</span>
+  </div>
+</header>
+
+<h2>Ingredients</h2>
+<div class="scroll">
+<table>
+<thead><tr><th>Ingredient</th><th>Full</th><th>Half</th></tr></thead>
+<tbody>
+<tr class="grp"><td colspan="3">Pasta</td></tr>
+<tr><td>Cavatappi</td><td class="n">227 g</td><td class="n">114 g</td></tr>
+<tr><td>Water, for boiling</td><td class="n">1,814 g</td><td class="n">907 g</td></tr>
+<tr><td>Kosher salt, for the water</td><td class="n">19 g</td><td class="n">10 g</td></tr>
+<tr class="grp"><td colspan="3">Infused dairy</td></tr>
+<tr><td>Whole milk</td><td class="n">528 g</td><td class="n">264 g</td></tr>
+<tr><td>Heavy cream</td><td class="n">264 g</td><td class="n">132 g</td></tr>
+<tr><td>Bay leaf</td><td class="n">1</td><td class="n">1</td></tr>
+<tr><td>Fresh thyme</td><td class="n">1 sprig</td><td class="n">1 small sprig</td></tr>
+<tr><td>Fresh rosemary</td><td class="n">1 sprig</td><td class="n">½ sprig</td></tr>
+<tr><td>Garlic, smashed</td><td class="n">2 cloves</td><td class="n">1 clove</td></tr>
+<tr><td>Chicken Better Than Bouillon</td><td class="n">6 g</td><td class="n">3 g</td></tr>
+<tr class="grp"><td colspan="3">Roux + seasoning</td></tr>
+<tr><td>Unsalted butter</td><td class="n">46 g</td><td class="n">23 g</td></tr>
+<tr><td>All-purpose flour <small>Using sodium citrate? Drop to 26 g / 13 g</small></td><td class="n">30 g</td><td class="n">15 g</td></tr>
+<tr><td>Dry mustard</td><td class="n">2 g</td><td class="n">1 g</td></tr>
+<tr><td>Black pepper, freshly ground</td><td class="n">2.5 g</td><td class="n">1.25 g</td></tr>
+<tr><td>Cayenne</td><td class="n">0.7 g</td><td class="n">a pinch</td></tr>
+<tr><td>Nutmeg, freshly grated</td><td class="n">0.3 g</td><td class="n">a pinch</td></tr>
+<tr><td>Sodium citrate <span class="opt">optional</span> <small>Insurance for a smooth sauce; see the note below</small></td><td class="n">3 g</td><td class="n">1.5 g</td></tr>
+<tr><td>Roasted garlic purée <small>About half a head, roasted</small></td><td class="n">18 g</td><td class="n">9 g</td></tr>
+<tr><td>White miso</td><td class="n">17 g</td><td class="n">9 g</td></tr>
+<tr><td>Kosher salt <small>Taste first</small></td><td class="n">0–2 g</td><td class="n">0–1 g</td></tr>
+<tr class="grp"><td colspan="3">Cheese</td></tr>
+<tr><td>Extra-sharp cheddar, shredded</td><td class="n">250 g</td><td class="n">125 g</td></tr>
+<tr><td>Parmigiano Reggiano, finely grated</td><td class="n">75 g</td><td class="n">38 g</td></tr>
+<tr><td>Low-moisture whole-milk mozzarella, shredded <small>For the middle layer</small></td><td class="n">155 g</td><td class="n">78 g</td></tr>
+<tr class="grp"><td colspan="3">Topping + finish</td></tr>
+<tr><td>Unsalted butter, to brown</td><td class="n">30 g</td><td class="n">15 g</td></tr>
+<tr><td>Panko</td><td class="n">20 g</td><td class="n">10 g</td></tr>
+<tr><td>Za’atar</td><td class="n">6 g</td><td class="n">3 g</td></tr>
+<tr><td>Green onion, thinly sliced</td><td class="n">6 g</td><td class="n">3 g</td></tr>
+</tbody>
+</table>
+</div>
+<p class="intro" style="margin-top:10px"><b style="color:var(--brass)">Equipment:</b> a 2.5-qt (11×7-inch) baking dish for the full batch or a shallow 1.5-qt gratin dish for the half, a saucepan, a small skillet, a fine strainer and a thermometer.</p>
+
+<h2>Method</h2>
+<ol>
+<li><b>Roast the garlic.</b> Halve a head crosswise, drizzle with oil, wrap in foil and roast at 375–400°F until soft and golden, about <span class="t">45 min</span>. Squeeze out what you need.</li>
+<li><b>Infuse the dairy.</b> Heat the milk, cream, bay, thyme, rosemary, garlic and bouillon until steaming, <span class="t">about 80°C / 175°F</span>, without boiling. Cover off the heat for <span class="t">20 min</span>, then strain.
+  <span class="why"><b>Why:</b> The herb flavor dissolves into the milk fat. Boiling scorches the milk sugars and forms a skin.</span></li>
+<li><b>Make the topping.</b> Brown the butter in a small skillet until the solids are hazelnut-colored and smell nutty. Toast the panko in it until golden, then stir in the za’atar off the heat.
+  <span class="why"><b>Why:</b> Pre-toasting browns the crumbs evenly. Za’atar’s sesame and sumac scorch in a hot pan.</span></li>
+<li><b>Par-boil the pasta for 5 minutes only.</b> Drain and rinse briefly with cold water without tossing.
+  <span class="why"><b>Why:</b> The pasta finishes in the oven by absorbing sauce, which is what lets this much sauce set.</span></li>
+<li><b>Make the roux.</b> Melt the butter over medium, whisk in the flour and cook <span class="t">1–2 min</span>, staying blond. Add the mustard, pepper, cayenne and nutmeg for the last 30 seconds.</li>
+<li><b>Whisk in the warm dairy,</b> a third first, then the rest. Simmer, whisking, until the sauce coats a spoon, <span class="t">3–5 min</span>.
+  <span class="why"><b>Why:</b> Flour only thickens fully once it simmers. Expect a sauce lighter than a standard white sauce.</span></li>
+<li><b>Off the heat,</b> whisk in the sodium citrate (if using) until dissolved, then the roasted garlic, then the miso thinned with a ladle of sauce. Let the pot sit 2–3 min until it’s <span class="t">below about 75°C / 165°F</span>.</li>
+<li><b>Add the cheddar and Parmigiano a handful at a time,</b> each fully melted before the next.
+  <span class="why"><b>Why:</b> Past about 75°C the cheese proteins tighten and squeeze out fat, and the sauce turns grainy. Sodium citrate widens that margin; without it, temperature is your only protection.</span></li>
+<li><b>Taste, then salt.</b> The cheese, miso and bouillon already bring plenty.</li>
+<li><b>Fold in the pasta.</b> It should look loose, almost soupy. That liquid is what the pasta drinks in the oven.</li>
+<li><b>Layer.</b> In a buttered dish set on a sheet pan: half the mac, all the mozzarella, then the rest. Scatter the topping evenly.
+  <span class="why"><b>Why:</b> In the middle, the mozzarella gives you the cheese pull without blocking the crumbs from crisping.</span></li>
+<li><b>Bake at 400°F / 200°C</b> until the edges bubble and the center reaches <span class="t">165°F / 74°C</span>: <span class="t">25–35 min</span> for the full batch, <span class="t">20–25 min</span> for the half. Tent with foil if the top browns early.</li>
+<li><b>Rest 10 minutes,</b> then scatter the green onion.
+  <span class="why"><b>Why:</b> The sauce thickens as it cools slightly, so it’s creamy rather than runny.</span></li>
+</ol>
+
+<h2>Notes</h2>
+<div class="cards">
+  <div class="card"><h3>Sodium citrate: optional</h3>
+    <p>It’s an emulsifying salt, the thing that makes processed cheese melt smoothly. A little keeps the cheddar and Parmigiano from turning grainy, and the leftovers reheat creamier.</p>
+    <p><b>With it:</b> use the smaller flour amount, 26 g (13 g for a half batch).</p>
+    <p><b>Without it:</b> use the full 30 g (15 g) of flour, keep the sauce below 75°C when the cheese goes in, and reheat gently.</p></div>
+  <div class="card"><h3>Make ahead</h3>
+    <p>The sauce (through step 9) and the topping keep 1 day. Press plastic onto the sauce and refrigerate; keep the topping airtight.</p>
+    <p>Rewarm the sauce gently with a splash of milk until steaming, not boiling.</p>
+    <p><b>Don’t assemble ahead.</b> Par-boiled pasta left in the sauce overnight absorbs all of it.</p></div>
+  <div class="card"><h3>If the sauce breaks</h3>
+    <p>Grainy or oily? Off the heat, whisk in a splash of cold milk, a little at a time, until it comes back together.</p>
+    <p><b>Shred your own cheese.</b> Pre-shredded is coated in anti-caking starch and melts gritty.</p>
+    <p><b>Cleanup:</b> soak the pans in warm, not hot, water. Very hot water cooks the cheese protein on harder.</p></div>
+</div>
+
+<footer>Recipe Box · Brian Roberts · adapted from “Grown-Up Bacon Mac &amp; Cheese” by Chef Resha, CarnalDish</footer>
+</div>
+</body>
+</html>
