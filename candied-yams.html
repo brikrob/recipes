@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Candied Yams</title>
+<meta name="description" content="One-skillet candied yams with orange, fresh ginger and a splash of rum or bourbon.">
+<style>
+:root{color-scheme:light dark;
+  --bg:light-dark(#F5EFE0,#0F1726);--surface:light-dark(#FFFBF2,#172238);--ink:light-dark(#1B2A4A,#F1EADB);
+  --muted:light-dark(#56607A,#A9B2C6);--line:light-dark(#E2D7BF,#2A3550);--teal:light-dark(#137F86,#5FCACE);
+  --brass:light-dark(#A9844A,#D3B27A);--brass-lt:light-dark(#E9D7AE,#5A4A2C);--warn:light-dark(#B0521C,#F2A06A)}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 16px 56px}
+.wrap{max-width:760px;margin:0 auto}
+header{padding:32px 0 8px}
+.holder{display:inline-block;position:relative;padding:12px 30px 14px;border:3px solid var(--brass);border-radius:6px;background:var(--surface);box-shadow:inset 0 0 0 2px var(--brass-lt)}
+.holder::before,.holder::after{content:"";position:absolute;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:var(--brass)}
+.holder::before{left:8px}.holder::after{right:8px}
+h1{font:700 clamp(32px,7vw,46px)/1.05 Georgia,"Times New Roman",serif;margin:0}
+.tag{font:italic 19px Georgia,serif;color:var(--teal);margin:14px 0 4px}
+.intro{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;margin:18px 0 0;padding:12px 0;border-block:1.5px solid var(--line);font-size:16px}
+.facts b{display:block;font-size:13px;color:var(--brass)}
+h2{font:700 26px Georgia,serif;margin:34px 0 10px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th{color:var(--brass);font-weight:600;text-align:right;border-bottom:2px solid var(--brass);padding:6px 8px}
+th:first-child{text-align:left}
+td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+td small{color:var(--muted);display:block}
+tr.grp td{font-weight:700;color:var(--teal);padding-top:16px;border-bottom:none}
+ol{list-style:none;margin:0;padding:0;counter-reset:s}
+ol li{counter-increment:s;position:relative;background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:14px 16px 14px 58px;margin-bottom:10px}
+ol li::before{content:counter(s);position:absolute;left:14px;top:10px;width:30px;text-align:center;font:700 28px Georgia,serif;color:var(--teal)}
+.why{display:block;color:var(--muted);font-size:15.5px;margin-top:6px;padding-left:12px;border-left:3px solid var(--brass-lt)}
+.why b{color:var(--brass)}
+.t{white-space:nowrap;font-weight:600;color:var(--warn)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px}
+.card{background:var(--surface);border:1.5px solid var(--brass-lt);border-radius:10px;padding:14px 16px}
+.card h3{font:700 18px Georgia,serif;margin:0 0 6px}
+.card p{margin:4px 0}
+footer{margin-top:40px;padding-top:12px;border-top:1.5px solid var(--line);font-size:14px;color:var(--muted)}
+@media print{body{background:#fff;color:#111;font-size:11pt;padding:0}ol li,.card{break-inside:avoid;border-width:1px}h2{margin-top:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="holder"><h1>Candied Yams</h1></div>
+  <p class="tag">a little rum never hurt anybody</p>
+  <p class="intro">Sweet potatoes parboiled in vinegar water so they hold their shape, then glazed in one skillet with brown sugar, orange, fresh ginger and dark rum or bourbon. A raw splash of the spirit and fresh zest go on at the very end, where you can still smell them.</p>
+  <div class="facts">
+    <span><b>Serves</b>6–8 (full) · 3–4 (half)</span>
+    <span><b>Active</b>about 25 min</span>
+    <span><b>Bake</b>20–35 min at 375°F / 190°C</span>
+    <span><b>Make ahead</b>up to 2 days</span>
+  </div>
+</header>
+
+<h2>Ingredients</h2>
+<div class="scroll">
+<table>
+<thead><tr><th>Ingredient</th><th>Full</th><th>Half</th></tr></thead>
+<tbody>
+<tr class="grp"><td colspan="3">Base</td></tr>
+<tr><td>Orange-fleshed sweet potatoes, peeled, in 2.5 cm (1-inch) cubes</td><td class="n">1,133 g</td><td class="n">567 g</td></tr>
+<tr><td>Water, for the parboil</td><td class="n">2,000 g</td><td class="n">1,000 g</td></tr>
+<tr><td>Distilled white vinegar</td><td class="n">30 g</td><td class="n">15 g</td></tr>
+<tr class="grp"><td colspan="3">Syrup</td></tr>
+<tr><td>Granulated sugar</td><td class="n">20 g</td><td class="n">10 g</td></tr>
+<tr><td>Orange zest <small>rubbed into the granulated sugar</small></td><td class="n">6 g</td><td class="n">3 g</td></tr>
+<tr><td>Unsalted butter</td><td class="n">150 g</td><td class="n">75 g</td></tr>
+<tr><td>Dark rum or bourbon <small>simmered in the syrup</small></td><td class="n">66 g</td><td class="n">33 g</td></tr>
+<tr><td>Dark brown sugar</td><td class="n">180 g</td><td class="n">90 g</td></tr>
+<tr><td>Fresh orange juice</td><td class="n">120 g</td><td class="n">60 g</td></tr>
+<tr><td>Orange peel strips</td><td class="n">2</td><td class="n">1</td></tr>
+<tr><td>Fresh lemon juice</td><td class="n">20 g</td><td class="n">10 g</td></tr>
+<tr><td>Water</td><td class="n">60 g</td><td class="n">30 g</td></tr>
+<tr><td>Kosher salt</td><td class="n">4 g</td><td class="n">2 g</td></tr>
+<tr><td>Ground cinnamon</td><td class="n">2.6 g</td><td class="n">1.3 g</td></tr>
+<tr><td>Fresh ginger, finely grated</td><td class="n">10 g</td><td class="n">5 g</td></tr>
+<tr><td>Nutmeg, freshly grated</td><td class="n">0.3 g</td><td class="n">a pinch</td></tr>
+<tr class="grp"><td colspan="3">Finish</td></tr>
+<tr><td>Dark rum or bourbon, raw</td><td class="n">20 g</td><td class="n">10 g</td></tr>
+<tr><td>Orange zest, fresh</td><td class="n">6 g</td><td class="n">3 g</td></tr>
+<tr><td>Flaky salt <small>optional</small></td><td class="n">a pinch</td><td class="n">a pinch</td></tr>
+</tbody>
+</table>
+</div>
+<p class="intro" style="margin-top:10px"><b style="color:var(--brass)">Equipment:</b> one oven-safe stainless skillet (12-inch for the full batch, 10-inch for the half), a colander and a microplane.</p>
+
+<h2>Method</h2>
+<ol>
+<li><b>Heat the oven</b> to <span class="t">375°F / 190°C</span>. Rub the first measure of zest into the granulated sugar with your fingertips for a minute or two, until it looks like damp orange sand.
+  <span class="why"><b>Why:</b> the sugar crystals break open the oil pockets in the zest and soak up the oil, with no heat to drive off the brightest notes.</span></li>
+<li><b>Parboil in vinegar water.</b> Bring the water and vinegar to a boil in the skillet. Add the cubes and simmer <span class="t">6–8 min</span>, until a knife meets slight resistance at the center. Drain.
+  <span class="why"><b>Why:</b> acid slows how fast the outside of each cube softens, so the cubes hold their shape while the centers cook through. It prevents the classic failure: glazed outside, firm inside.</span></li>
+<li><b>Start the syrup.</b> Return the empty skillet to medium-low for a few seconds to dry it, then melt the butter. Take the pan off the burner, pour in the first measure of rum or bourbon, return it to the heat and simmer <span class="t">1 min</span>.
+  <span class="why"><b>Why:</b> pouring off the burner keeps the alcohol from flaring.</span></li>
+<li><b>Build the syrup.</b> Add the orange sugar, brown sugar, orange juice, peel, lemon juice, water, salt, cinnamon, ginger and nutmeg. Simmer <span class="t">3–4 min</span>, until glossy and the bubbles turn large and slow.</li>
+<li><b>Coat the cubes.</b> Add the sweet potatoes and simmer <span class="t">2–3 min</span>, spooning the syrup over them. Remove the peel.</li>
+<li><b>Bake uncovered,</b> basting every 10 min: <span class="t">25–35 min</span> for the full batch, <span class="t">20–25 min</span> for the half. They're done when a knife slides through the center and the syrup coats the back of a spoon. If the syrup is still thin, reduce it on the stovetop for 2–3 min.
+  <span class="why"><b>Why:</b> the open pan lets the syrup thicken into a glaze; basting keeps the tops from drying out.</span></li>
+<li><b>Finish off the heat.</b> Stir in the raw rum or bourbon, spoon the syrup over, and scatter the fresh zest and a pinch of flaky salt.
+  <span class="why"><b>Why:</b> heat destroys fresh orange aroma and the spirit's vanilla and caramel notes. Added at the end, both reach the table.</span></li>
+</ol>
+
+<h2>Notes</h2>
+<div class="cards">
+  <div class="card"><h3>Make ahead</h3>
+    <p>Cook through step 6, cool, cover and refrigerate up to 2 days.</p>
+    <p>Reheat loosely covered with foil at 375–425°F for about 20 min, until hot through. The foil keeps the sugar at the edges from scorching.</p>
+    <p>Do step 7 only after reheating.</p></div>
+  <div class="card"><h3>Rum or bourbon</h3>
+    <p>Dark or aged rum leans into the brown sugar and molasses. Bourbon brings oak and vanilla. Spiced rum works; skip white rum.</p>
+    <p>The finishing splash stays alcoholic. Leave it out, or use a little extra orange juice, if anyone avoids alcohol.</p></div>
+  <div class="card"><h3>Cleanup</h3>
+    <p>Hardened sugar dissolves in water. Fill the skillet, simmer 5 minutes, and pour it out. No scraping.</p>
+    <p>Avoid bare cast iron; the lemon juice strips its seasoning.</p></div>
+</div>
+
+<footer>Recipe Box · Brian Roberts</footer>
+</div>
+</body>
+</html>
